@@ -1,5 +1,5 @@
 <html lang="en-US">
-    <title>First front-end challenge </title>
+
     <style>
         .text
         {
@@ -8,19 +8,19 @@
         }
         .card 
         {            
-            margin: auto;
             border-radius: 20px;
             padding: 20px;
             background-color: white;            
             height: fit-content;
             width: fit-content;
+            text-align: center;
         }
         .title
         {
             font-size: 22px;
             margin-top : 30px;
             text-align: center;
-            color:1F314F;
+            color: #1F314F;
             font-weight: bold;
         }
         .subtitle
@@ -38,32 +38,37 @@
             border-radius: 10px;
             margin:0 auto;
             display: block;
-            width: 288x;
+            width: 288px;
             height: 288px;
         }
         body
         {
             display: flex;
             align-items: center;
+            justify-content: center;
         }
     </style>
-    <header>
 
-    </header>
     <body class = "general-background">
-        <div class = card>
-            <img src="GIT-TEST/DEVELOPMENT/images/image-qr-code.png" alt=" we couldnt find the photo" />    
-            <div class = text>                       
-                <div class="title">
-                    Improve your front-end skills by building projects
+        <header>
+            <title>First front-end challenge </title>
+        </header>
+        <main>
+            <div class = card>
+                <img src="GIT-TEST/DEVELOPMENT/images/image-qr-code.png" alt=" we couldnt find the photo" />    
+                <div class = text>                       
+                    <h1 class="title">
+                        Improve your front-end skills by building projects
+                    </h1>
+                    <p class="subtitle">
+                        Scan the QR code to visit FrontEnd Mentor and take your coding skills to the next level
+                    </p>
                 </div>
-                <p class="subtitle">
-                    Scan the QR code to visit FrontEnd Mentor and take your coding skills to the next level
-                </p>
             </div>
-        </div>
+        </main>
+        <footer>      
+
+        </footer>
     </body>
-    <footer>
-        
-    </footer>
+    
 </html>
